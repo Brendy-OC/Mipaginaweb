@@ -8,52 +8,51 @@ body {
     line-height: 1.6;
 }
 
-h1 {
-    color: #2c3e50;
+header {
+    color: #941173;
+    text-align: center;
+    padding: 20px;
     margin-bottom: 10px;
 }
 
 /* Encabezado */
-#about-me {
+h2 {
     text-align: center;
     padding: 20px;
-    background-color: #ecf0f1;
+    background-color: #ef6cef;
     margin-bottom: 20px;
 }
 
-#about-me h1 {
-    font-size: 2rem;
-}
 
-#about-me img {
+img {
     max-width: 150px;
     border-radius: 50%;
     margin-top: 20px;
 }
 
 /* Enlaces */
-#links {
+div id {
     text-align: center;
     padding: 10px;
     background-color: #eea9e3;
     margin-bottom: 20px;
 }
 
-#links a {
+div id {
     text-decoration: none;
     color: #430347;
     margin: 0 10px;
     font-weight: bold;
 }
 
-#links a:hover {
+links:hover {
     text-decoration: underline;
     color: #5e3a34;
 }
 
 /* Secciones de listas */
-.hobbies,
-.tasks {
+.h2 pasatiempos,
+.ul{
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -74,7 +73,7 @@ h1 {
 }
 
 /* Tabla */
-.schedule {
+.h2 Mi Cronograma de actividades {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
@@ -83,29 +82,29 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.schedule table {
+.table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
 }
 
-.schedule th,
-.schedule td {
+.thead th,
+.tbody td {
     padding: 10px;
     border: 1px solid #ddd;
 }
 
-.schedule th {
+.th {
     background-color: #ce05a3;
     color: white;
 }
 
-.schedule td {
+.td {
     background-color: #f4f4f4;
 }
 
 /* Formulario */
-.contact-form {
+.div h2 contactame {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
